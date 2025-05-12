@@ -4,11 +4,6 @@ import kotlinx.coroutines.*
 import java.io.FileNotFoundException
 
 fun main() = runBlocking {
-//    val file = "/Users/kerambit/kotlinprojects/ip-addr-counter/src/main/kotlin/test-file"
-//    val file = "/Users/kerambit/kotlinprojects/ip-addr-counter/src/main/kotlin/ips_txt" //70000000
-//    val file = "/Users/kerambit/kotlinprojects/ip-addr-counter/src/main/kotlin/ips_txt_head" //4949015
-//    val file = "/Users/kerambit/go_test/ip_addresses" // 1000000000
-
     val file: String; val isParallel: Boolean
 
     try {
